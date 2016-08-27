@@ -12,11 +12,17 @@ require(['gitbook', 'jQuery'], function (gitbook, $) {
             '<div id="py-shell-modal" style="display: none;" class="pure-g">',
 
             '<div id="py-shell-left" class="pure-u-1-2 py-shell-container">',
-            '<p><textarea id="py-shell-ipython" class="pure-u-1" rows="16"></textarea></p>',
+            '<p>',
+            'Python 解释器 REPL，使用 Enter 运行代码',
+            '<textarea id="py-shell-ipython" class="pure-u-1" rows="16"></textarea>',
+            '</p>',
             '</div>',
 
             '<div id="py-shell-right" class="pure-u-1-2 py-shell-container">',
-            '<p id="py-shell-file-frame"><textarea id="py-shell-editor" class="pure-u-1 py-shell-editor-molokai" rows="10"></textarea></p>',
+            '<p id="py-shell-file-frame">',
+            'Python 代码编辑器，点击运行按钮运行代码',
+            '<textarea id="py-shell-editor" class="pure-u-1 py-shell-editor-molokai" rows="10"></textarea>',
+            '</p>',
 
             '<p id="py-shell-btn-frame">',
             '<button id="py-shell-run-btn" class="pure-button pure-button-primary">运行</button>',

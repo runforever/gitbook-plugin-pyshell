@@ -11,6 +11,7 @@
     font-weight: bold;
     z-index: 102;
     padding: 6px 0px 0px 4px;
+    border: 1px solid #9B9C9C;
 }
 
 #py-shell-btn-cursor {
