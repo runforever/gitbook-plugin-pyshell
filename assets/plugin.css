@@ -1,13 +1,20 @@
 #py-shell-toggle-btn {
     display: block;
-    width: 60px;
-    height: 40px;
+    width: 82px;
+    height: 76px;
     position: fixed;
     bottom: 50px;
     right: 80px;
-    border-radius: 10px 10px 10px 10px;
-    background-color: #999999;
+    border-radius: 4px 4px 4px 4px;
+    background-color: #171717;
+    color: #409611;
+    font-weight: bold;
     z-index: 102;
+    padding: 6px 0px 0px 4px;
+}
+
+#py-shell-btn-cursor {
+    background-color: #409611;
 }
 
 #py-shell-modal {

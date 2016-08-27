@@ -1,12 +1,12 @@
 require(['gitbook', 'jQuery'], function (gitbook, $) {
 
-    var apiHost = 'http://127.0.0.1:5000',
+    var apiHost = 'http://pyshell.daoapp.io',
         runShellApi = apiHost + '/run/shell',
         runSourceApi = apiHost + '/run/source';
 
     function insertPyShell() {
         var toggleBtnHtml = [
-            '<p id="py-shell-toggle-btn">python</p>'
+            '<p id="py-shell-toggle-btn"><span>$ python</span><span id="py-shell-btn-cursor">&nbsp;&nbsp;</span></p>'
         ]
         var pyShellHtml = [
             '<div id="py-shell-modal" style="display: none;" class="pure-g">',
